@@ -1,0 +1,41 @@
+{
+  "secret_key": 11,
+  "plaintext": 6,
+  "ciphertext": 2,
+  "n_key_bits": 4,
+  "n_qubits": 5,
+  "grover_iterations": 3,
+  "circuit_depth": 32,
+  "hw_depth": 463,
+  "cx_count": 216,
+  "hw_ops": {
+    "rz": 311,
+    "cx": 216,
+    "sx": 70,
+    "x": 18,
+    "barrier": 7,
+    "measure": 4
+  },
+  "shots": 4096,
+  "recovered_key": 11,
+  "success_probability": 0.966552734375,
+  "counts": {
+    "0010": 13,
+    "1011": 3959,
+    "1001": 15,
+    "1110": 13,
+    "0000": 7,
+    "0111": 16,
+    "0110": 12,
+    "1101": 5,
+    "1111": 9,
+    "0100": 7,
+    "1100": 6,
+    "0101": 10,
+    "1000": 2,
+    "0001": 3,
+    "0011": 11,
+    "1010": 8
+  },
+  "oracle_type": "truthtable"
+}

@@ -1,0 +1,10 @@
+{
+  "secret_key": 173,
+  "n_bits": 8,
+  "grover_iterations": 12,
+  "shots": 8192,
+  "cz_count": 6048,
+  "hw_depth": 18820,
+  "top_prob": 1.0,
+  "recovered_key": 173
+}
